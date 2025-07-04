@@ -6,7 +6,7 @@ A simple and interactive calculator built using **Python** and **Tkinter** that 
 
 ## 📸 Screenshot
 
-![Calculator GUI](screenshot.png)
+![Calculator GUI](https://github.com/Parthrokde03/calculator-using-tkinter/blob/b297360d5ea6b6d65455871c7f544f57468222ec/calculator_img.png)
 
 ---
 
