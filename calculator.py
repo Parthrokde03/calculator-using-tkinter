@@ -136,19 +136,27 @@ def equal():
     
     if '.' in n2:
         b = float(n2)
-        entry.insert(0,i+b)
     else:
         b = int(n2)
-        
+
+    result = 0
+
     if math == "addition":
-        entry.insert(0, i + b)
+        result = i + b
     elif math == "subtraction":
-        entry.insert(0, i - b)
+        result = i - b
     elif math == "multiplication":
-        entry.insert(0, i * b)
+        result = i * b
     elif math == "division":
-        entry.insert(0, i / b)       
-                
+        result = i / b
+
+    result = round(result, 2)
+
+    if result == int(result):
+        result = int(result)
+
+    entry.insert(0, str(result))
+
    
 b1 = Button(window, text="=" , width=12, command= equal)
 b1.place(x=320 , y=260)
